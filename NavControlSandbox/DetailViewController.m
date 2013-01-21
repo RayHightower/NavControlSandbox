@@ -16,6 +16,7 @@
 
 #pragma mark - Managing the detail item
 
+// No @synthesize here. This is an explicit setDetailItem. Why?
 - (void)setDetailItem:(id)newDetailItem
 {
     if (_detailItem != newDetailItem) {

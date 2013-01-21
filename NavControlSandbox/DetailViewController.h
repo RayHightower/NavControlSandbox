@@ -11,6 +11,7 @@
 @interface DetailViewController : UIViewController
 
 @property (strong, nonatomic) id detailItem;
+// type id means this could be any item. This is a placeholder.
 
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end
