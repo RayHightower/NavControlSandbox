@@ -14,4 +14,7 @@
 // type id means this could be any item. This is a placeholder.
 
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+
+@property (strong, nonatomic) IBOutlet UITextView *detailNote;
+
 @end
